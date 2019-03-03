@@ -1,0 +1,63 @@
+	<html>
+<head> <title >CSS</title>
+	<style>
+#i{font-size: 18px;font-variant: small-caps;}	
+	body { background-color: White;
+	background-image: url("download1.jpg"); background-repeat:no-repeat;background-position: center; background-attachment: fixed; 
+}
+	h1 {margin-left:150px;
+		color:red;}
+		.name {color:violet;}
+	p.solid {border-style: solid;border-width: 5px;border-color: yellow;border-top-style: dotted;border-bottom-style: dotted;}
+	p.color{background-color: lightgrey;outline-style: double;outline-offset: 5px;}
+	p.pad{border: 1px solid pink;
+  padding: 25px 10px 20px 20px;
+  background-color:#eeffff;max-width: 500px}
+  div {width: 300px; border:25px;; margin:25px; padding:25px;background-color:lightgray;}
+  a {text-decoration: none; text-align: center;display: inline-block;background-color: #f44336;}
+  .text{text-decoration: overline;text-transform: uppercase;}
+  .t{text-decoration: line-through;text-transform: capitalize;}
+  #s{text-shadow: 3px 2px red;}
+  ol {
+  background: #009999;
+  padding: 20px;}
+  ol li {background: #ffe5e5;padding: 5px; margin-left: 15px;}
+  	table { border-collapse: collapse;width:50%;}
+table, td, th {border: 3px solid black;text-align:left;left;padding: 15px}
+
+</style></head>
+<body>
+	<h1>CSS</h1>
+	<h3 class="name">CSS Tutorial</h3>
+	<ul>
+	<li style="margin-left:20px" id="i">CSS is a language that describes the style of an HTML document.</li>
+<li style="margin-left:20px" id="i">CSS describes how HTML elements should be displayed.</li>
+<li style="margin-left:20px" id="i">This tutorial will teach you CSS from basic to advanced.</li>
+</ul>
+<h3 class="name">CSS Border Properties</h3>
+<ol><li class="solid">The CSS border properties allow you to specify the style, width, and color of an element's border.</li>
+<li class="color">The border-radius property is used to add rounded borders to an element:</li></ol>
+<h3 class="name">Padding - Shorthand Property</h3>
+<p class="pad">To shorten the code, it is possible to specify all the padding properties in one property.
+</p>
+<h3 class="name">The CSS Box Model</h3>
+<div><p>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model</p></div>
+<h3 class="name">CSS Text: <a href="https://www.w3schools.com/css/css_text.asp" target="_blank">click Here</a></h3>
+	<h3 class="name text">Text Decoration</h3>
+	<p class="t">the text-decoration property is used to set or remove decorations from text.</p>
+<p>	<bdo dir="rtl">the text-decoration property is used to set or remove decorations from text.</bdo></p>
+<h3 id="s" class="name">Text Shadow</h3>
+<h2 class="name">Collapse Table Borders</h2>
+<table>
+	<tr><th style="background-color: #4CAF50";>First Name</th>
+		<th style="background-color: #4CAF50";>Last Name</th></tr>
+		<tr><td>Anitha</td>
+			<td>Selvaraj</td></tr>
+			<tr><td>Mercy</td>
+				<td>Glaret</td></tr>
+
+</table>
+
+</body>
+
+</html>
